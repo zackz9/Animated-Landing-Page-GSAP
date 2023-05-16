@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Landing Page HTML, CSS & GSAP</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="navbar">
+            <div class="logo">Zackaria</div>
+            <div class="menu-icon">MEnu</div>
+        </div>
+        <div class="site-header">
+            <div class="row">
+                <div class="header-row">
+                    <span>the</span>purity
+                </div>
+                <div class="header-row-wrapper"></div>
+            </div>
+            <div class="row">
+                <div class="header-row">
+                    <span>of</span>noise
+                </div>
+                <div class="header-row-wrapper"></div>
+            </div>
+           
+        </div>
+        <div class="footer">
+            "Everyday life is her sound"
+        </div>
+    </div>
+    <div class="pre-loader">
+        <div class="pre-loader-container">
+            <div class="pre-loader-header">
+                <div class="header">
+                    <h1>A creator of</h1>
+                    <div class="header-wrapper"></div>
+                </div>
+                
+                <div class="header">
+                    <h1 data-text="sound">sound</h1>&nbsp;&nbsp;
+                    <h1>From pure</h1>
+                    <div class="header-wrapper"></div>
+                </div>
+                <div class="header">
+                    <h1>noise of melody,</h1>
+                    <div class="header-wrapper"></div>
+                </div>
+                <div class="header">
+                    <h1>everyday life</h1>
+                    <div class="header-wrapper"></div>
+                </div>
+                <div class="header">
+                    <h1>is her</h1>&nbsp;&nbsp;
+                    <h1 data-text="symphony">symphony</h1>
+                    <div class="header-wrapper"></div>
+                </div>
+            </div>
+            <div class="pre-loader-btn" onclick="revealSite()">
+                <div class="btn">
+                    Click anywhere
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                    to enable the sound
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
